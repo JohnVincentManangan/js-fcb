@@ -90,7 +90,7 @@ function handleSlide(e){
 		}
 		setRandomTile();
 	}
-	document.getElementById("score").innerText = score;
+	document.getElementById("scoreValue").innerText = score;
 	setTimeout(()=>{
 		checkWin();
 	}, 100)
